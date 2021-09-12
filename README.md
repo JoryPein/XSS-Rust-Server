@@ -9,5 +9,8 @@ git clone https://github.com/JoryPein/xss-server-rust.git
 
 cd xss-server-rust
 docker-compose up -d
+
+# inspect
+docker ps -a
 docker-compose logs
 ```
