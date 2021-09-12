@@ -9,7 +9,7 @@ services:
       - "80:80"
     volumes:
       - ".:/root/xss/"
-      - ".cargo:/root/.cargo"
+      - "_cargo:/root/.cargo"
     working_dir: /root/xss/
     command: "/bin/bash -c \"cargo run\""
     depends_on:
