@@ -1,4 +1,4 @@
-# XSS Server Rust
+# XSS-Rust-Server
 
 XSS platform written in Rust for efficient and secure cross-site scripting testing.
 
